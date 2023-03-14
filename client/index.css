@@ -1,0 +1,87 @@
+html {
+  background-color: rgb(183, 183, 183);
+  margin-left: 30px;
+}
+
+header {
+  margin-left: -30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  width: 98%;
+  background: #1b5ea5;
+  color: white;
+  font-family: Verdana ;
+  font-size: 30px;
+  border-color: white;
+  padding-top: 25px;
+  line-height: 5px;
+}
+
+h4{
+  font-size: 20px;
+  padding-top: 32px;
+  padding-right: 520px;
+}
+
+span {
+  counter-reset: white;
+  padding-right: 20px;
+  padding-top: 58px;
+  font-size: 20px;
+}
+
+.body{
+  display: flex;
+  font-family: Verdana ;
+}
+
+button {
+  font-family: Verdana ;
+  font-weight: 300;
+}
+
+.img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 350px;
+  height: 240px;
+  border: 2px solid #4a4a4a36;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+img:hover {
+  filter: grayscale(1);
+  transform: scale(1.03);
+}
+
+.one{
+  font-family: Verdana ;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  font-size: 12px;
+}
+
+.comment-list {
+  font-family: Verdana ; 
+  width: 50%; 
+  padding: 5px;
+  background: #adbdce;
+  color: white;
+  font-family: Verdana ;
+  font-size: 30px;
+  border-color: white;
+  border-top:#1b5ea5 5px;
+}
